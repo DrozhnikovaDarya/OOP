@@ -7,7 +7,7 @@ win.geometry("500x1000")
 
 #1
 style1 = ttk.Style()
-style1.configure("1.TFrame", background="lightblue")
+style1.configure("1.TFrame", background="#EDE275")
 
 frame1 = ttk.Frame(borderwidth = 2, style="1.TFrame", relief=SOLID, padding=[10,10], width=500, height=50)
 frame1.grid()
@@ -21,7 +21,7 @@ txt.grid(row=0, column=0)
 #2
 
 style2 = ttk.Style()
-style2.configure("2.TFrame", background="#EE82EE")
+style2.configure("2.TFrame", background="#C9BE62")
 
 
 frame2 = ttk.Frame(borderwidth = 2, style="2.TFrame", relief=SOLID, padding=[10,10], width=500, height=70)
@@ -46,7 +46,7 @@ p.grid(row=1, column=0)
 #3
 
 style3 = ttk.Style()
-style3.configure("3.TFrame", background="#FBB117")
+style3.configure("3.TFrame", background="#B2C248")
 
 
 frame3 = ttk.Frame(borderwidth = 2, style="3.TFrame", relief=SOLID, padding=[10,10], width=500, height=120)
@@ -78,7 +78,7 @@ l.grid(row=3, column=0)
 #4
 
 style4 = ttk.Style()
-style4.configure("4.TFrame", background="#6C2DC7")
+style4.configure("4.TFrame", background="#BCE954")
 
 
 frame4 = ttk.Frame(borderwidth = 2, style="4.TFrame", relief=SOLID, padding=[10,10], width=500, height=200)
