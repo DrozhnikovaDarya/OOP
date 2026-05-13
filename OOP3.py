@@ -6,7 +6,7 @@ def summ(A):
     for i in A:
         S += i
     print(f'Сумма: {S}')
-    retun: S
+    return: S
 
 def kv(A):
     B = A.copy()
